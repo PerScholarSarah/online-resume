@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    display:grid;
+    grid-template: 1fr 3fr/1fr 3fr;
+}
+.box{
+    border:1px solid black;
+}
+
+#top-left{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.headshot{
+    border:solid pink;
+    height:90%;
+    width:90%;
+    border-radius:100%;
+}
